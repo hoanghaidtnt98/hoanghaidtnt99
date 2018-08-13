@@ -1,0 +1,39 @@
+div.top{
+    background-color: aliceblue;
+    width:100%
+}
+.topone{
+    color: white;
+    background-color:black;
+    text-align: center;
+    height: 30px;
+}
+.menu{
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: cornflowerblue;
+    height:32px;
+}
+.titlecione{
+    text-align: center;
+    font-weight: bold;
+    padding-top:30px;
+}
+.list1{
+    list-style-type: none;
+    margin-top: 3px;
+}
+.list1 li{
+    display: inline;
+    margin: 10px;
+    
+}
+#timkiem{
+    width: 200px;
+    height: 25px;
+    margin-left: 450px;
+    border-radius: 12px;
+}
+.menu .list1{
+    margin-bottom:2px;
+}

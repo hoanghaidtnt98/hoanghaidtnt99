@@ -1,0 +1,38 @@
+#frameleft{
+    width: 60%;
+    border-color:red;
+    border: 2px;
+    border-right:red;
+    float: left;
+}
+#frameright{
+    float: right
+}
+
+#framleft p{
+    margin-left: 270px;
+}
+.xl{
+    border: 1px dashed black;
+    clear: both;
+    padding-top:5px;
+}
+#frameleft img{
+    float: left;
+}
+h2{
+    clear: both;
+    padding-top:4%;
+    margin-bottom: 1%;
+}
+.p1{
+    margin-left:33%;
+    margin-top: 1%
+}
+.p2{
+    margin-left:35%;
+    margin-top:1%;
+}
+.menu .list1>li{
+    margin-top:3px;
+}

@@ -1,0 +1,12 @@
+#footer{
+    height: 32px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-family: monospace,serif,"time new roman", fantasy,sans-serif;
+    font: 18px importent;
+    clear: both;
+}
+#footer p{
+    padding-top: 4px;
+}

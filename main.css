@@ -1,0 +1,20 @@
+
+@import'topweb.css';
+@import'right.css';
+@import 'footer.css';
+@import'body.css';
+html{
+    font-size: 20px;
+    font-family: "time new roman", airl, serif;
+}
+.topone{
+    position:fixed;
+margin-top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    top: -1px;
+    z-index: 100;
+}
+div{
+    margin: 0px;
+}

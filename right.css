@@ -1,0 +1,8 @@
+#menuright li>a{
+    text-decoration: none;
+}
+#menuright{
+    list-style-type:none;
+    margin-right: 87px;
+    
+}
