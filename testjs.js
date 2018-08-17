@@ -1,0 +1,1 @@
+alert("hello to my blog\n--design by Hoàng Hải--");
