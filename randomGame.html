@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>game random</title>
+        <meta charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="random.css" />
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="big">
+            <div id='notification'>Rất tiếc bạn đã thua</div>
+            <div id="head-game">
+                <input type="button" id="start" value="start" /><br> <br> <br>
+            </div>
+            
+            <div id="before-start">
+				<span id="score"> score: 0 </span>
+                <div id="body-game">
+                    <input id="a" type="button" value="" />
+                    <span>+</span>
+                    <input id="b" type="button" value="" />
+                    <span>=</span>
+                    <input id="c" type="button" value="" />
+                </div>
+
+                <div id="true-false">
+                    <input type="button" id="dung" class="dungsai" value="true" />
+                    <input type="button" id="sai" class="dungsai" value="false" />
+                </div>
+				<p id="happy" style="color: #00ff2b">chính xác</p>
+			</div>
+                <div id="foot-game">
+                    <input type="button" id="really" value="really" />
+                </div>
+        </div>
+        <script src="random.js"></script>
+    </body>
+</html>
