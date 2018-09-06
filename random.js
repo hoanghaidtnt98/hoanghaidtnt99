@@ -13,10 +13,18 @@ function endGame(){
 }
 
 function randombien(){
-    a.attr('value',rDom(30,90));
-    b.attr('value',rDom(30,90));
-	if(rDom(1,4)==3) c.attr('value',Number(a.val())+Number(b.val()));
-    else c.attr('value',rDom(60,180));
+	if(diem==0){
+		a.attr('value',rDom(1,5));
+		b.attr('value',rDom(1,5));
+		if(rDom(1,4)==3) c.attr('value',Number(a.val())+Number(b.val()));
+		else c.attr('value',rDom(2,10));
+	} 
+    else{
+		a.attr('value',rDom(1,diem*10));
+		b.attr('value',rDom(1,diem*10));
+		if(rDom(1,4)==3) c.attr('value',Number(a.val())+Number(b.val()));
+		else c.attr('value',rDom(2,diem*20));
+	}
 }
 
 $("#start").click(function(){
